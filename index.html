@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar System Planets</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        margin: 0;
+        padding: 40px;
+        color: white;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #f8fafc;
+        letter-spacing: 1px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgb(85, 69, 138);
+        color: #f3eded;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    thead {
+        background: linear-gradient(90deg, #2563eb, #7c3aed);
+        color: white;
+    }
+
+    th, td {
+        padding: 14px 18px;
+        text-align: center;
+    }
+
+    th {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #4e45a8;
+    }
+
+    tbody tr:hover {
+        background-color: #dbeafe;
+        transform: scale(1.01);
+        transition: 0.2s ease;
+    }
+
+    .planet {
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        table {
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🌌 Planets of the Solar System</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Planet</th>
+                <th>Type</th>
+                <th>Diameter (km)</th>
+                <th>Distance from Sun (Million km)</th>
+                <th>Moons</th>
+                <th>Orbital Period</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="planet">Mercury</td>
+                <td>Terrestrial</td>
+                <td>4,879</td>
+                <td>57.9</td>
+                <td>0</td>
+                <td>88 days</td>
+            </tr>
+            <tr>
+                <td class="planet">Venus</td>
+                <td>Terrestrial</td>
+                <td>12,104</td>
+                <td>108.2</td>
+                <td>0</td>
+                <td>225 days</td>
+            </tr>
+            <tr>
+                <td class="planet">Earth</td>
+                <td>Terrestrial</td>
+                <td>12,742</td>
+                <td>149.6</td>
+                <td>1</td>
+                <td>365 days</td>
+            </tr>
+            <tr>
+                <td class="planet">Mars</td>
+                <td>Terrestrial</td>
+                <td>6,779</td>
+                <td>227.9</td>
+                <td>2</td>
+                <td>687 days</td>
+            </tr>
+            <tr>
+                <td class="planet">Jupiter</td>
+                <td>Gas Giant</td>
+                <td>139,820</td>
+                <td>778.5</td>
+                <td>95</td>
+                <td>11.9 years</td>
+            </tr>
+            <tr>
+                <td class="planet">Saturn</td>
+                <td>Gas Giant</td>
+                <td>116,460</td>
+                <td>1,434</td>
+                <td>146</td>
+                <td>29.5 years</td>
+            </tr>
+            <tr>
+                <td class="planet">Uranus</td>
+                <td>Ice Giant</td>
+                <td>50,724</td>
+                <td>2,871</td>
+                <td>28</td>
+                <td>84 years</td>
+            </tr>
+            <tr>
+                <td class="planet">Neptune</td>
+                <td>Ice Giant</td>
+                <td>49,244</td>
+                <td>4,495</td>
+                <td>16</td>
+                <td>164.8 years</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
